@@ -1,0 +1,39 @@
+.balance{
+    display: grid;
+    grid-template-columns: 92px 92px;
+    grid-gap: 96.15px;
+    justify-items: center;
+    border-bottom: 1px solid #2E405A; 
+}
+.eth{
+    color: #00FFF8;
+    font-size: 15px;
+    font-weight: 600;
+}
+.wallet{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+}
+.days{
+    color: #8BACD9;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+@media(min-width:376px){
+    .balance{
+        grid-template-columns: 94.75px 94.75px;
+        grid-gap: 112.5px;
+    }
+    .eth{
+        font-size: 16px;
+    }
+    .days{
+        font-size: 16px;
+    }
+}

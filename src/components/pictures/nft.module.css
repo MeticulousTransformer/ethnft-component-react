@@ -1,0 +1,34 @@
+.nft{
+    background-image: url(../images/image-equilibrium.jpg);
+    width: 278px;
+    height: 278px;
+    background-size: cover;
+    border-radius: 8px;
+    margin: auto;
+}
+.nft:active{
+    background-color: aqua;
+}
+.color{
+    background-color: #00FFF8;
+    opacity: 0;
+    width: 278px;
+    height: 278px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color:hover{
+    opacity: 50.3%;
+}
+@media (min-width:376px){
+    .nft{
+        width: 302px;
+        height: 302px;
+    }
+    .color{
+        width: 302px;
+        height: 302px;
+    }
+}
